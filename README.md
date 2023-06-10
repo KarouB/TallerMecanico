@@ -30,7 +30,7 @@ El sistema permitirá:
  
   • Consultas de Salida:
  
-    ◘ Desarrollar un (1) Stored Procedure por cada consigna que se especifica a continuación: 
+  ◘ Desarrollar un (1) Stored Procedure por cada consigna que se especifica a continuación: 
     
         ◙ Repuesto más utilizado por Marca/Modelo en las reparaciones realizadas (Mostrar Descripción del Repuesto y cantidad de veces usado) 
         
@@ -40,9 +40,9 @@ El sistema permitirá:
         
   • Cargar Repuestos y precios:
   
-    ◘ Modificar el Stored Procedure dbo.MassiveCharge adjunto (…el cual contiene dentro una Tabla Temporal cargada con registros de Repuestos y sus precios…), para que permita hacer lo siguiente:
+  ◘ Modificar el Stored Procedure dbo.MassiveCharge adjunto (…el cual contiene dentro una Tabla Temporal cargada con registros de Repuestos y sus precios…), para que permita hacer lo siguiente:
     
-        ◙ Se necesita que se carguen en la tabla Definitiva de Repuestos, cada registro que exista en la temporal, siempre y cuando: 
+  ◙ Se necesita que se carguen en la tabla Definitiva de Repuestos, cada registro que exista en la temporal, siempre y cuando: 
         
             ♠ El valor del Repuesto sea menor a 20$ 
             
